@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin:10%;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
