@@ -7,9 +7,9 @@ function reducer (state,action) {
             state.counter = state.counter-1;
             return {...state};
         case "RESET_COUNTER" :
-            state.counter = 0;
+            state.counter = action.payload;
             return {...state};
-                
+
 
         default:
             return state;

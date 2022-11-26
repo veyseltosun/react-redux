@@ -11,7 +11,7 @@ function ComponentB() {
         
     ComponentB
     <h2>Count:{myCounter} </h2>
-    <button onClick={() => dispatch({type: "RESET_COUNTER"})}>Resetle </button>
+    <button onClick={() => dispatch({type: "RESET_COUNTER", payload:0})}>Resetle </button>
     </div>
   )
 }

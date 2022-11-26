@@ -14,6 +14,7 @@ function App() {
 
     <div className="App" >
       <h1>Clarus Test </h1> 
+      <h2>Redux ile state manegement!</h2>
       <ComponentA></ComponentA>
       <ComponentB></ComponentB>
       
