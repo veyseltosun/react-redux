@@ -2,6 +2,7 @@ import React from 'react'
 import "../App.css"
 import {useSelector, useDispatch} from "react-redux";
 
+
 function ComponentA() {
     const myCounter = useSelector((state) => state.counter)
     const dispatch = useDispatch()
